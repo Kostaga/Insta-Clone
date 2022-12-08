@@ -33,3 +33,16 @@ p {
   }
 
 }
+
+@media (min-width: 1450.5px) {
+  body {
+    font-family: Roboto, Arial;
+    background-color: rgb(250,250,250);
+    margin: 0;
+    padding-right: 104px;
+    padding-bottom: 200px;
+    padding-left: 55px;
+    padding-top: 34px;
+  }
+
+}
