@@ -1,0 +1,289 @@
+.posts {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 20px;
+	margin-left: 100px;
+}
+
+.post-container {
+	background-color: white;
+	width: 645px;
+	height: 760px;
+	position: relative;
+	border-radius: 8px;
+	box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.128);
+	border: 1px solid rgba(0, 0, 0, 0.22);
+	margin-bottom: 15px;
+}
+
+.post-profile {
+	width: 40px;
+	object-fit: cover;
+	border-radius: 25px;
+	margin-left: 20px;
+}
+
+.header-post * {
+	cursor: pointer;
+}
+
+.header-post {
+	display: flex;
+	justify-content: start;
+	align-items: center;
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	top: 15px;
+	z-index: 1;
+}
+
+.post-user {
+	font-weight: 500;
+	font-size: 18px;
+	padding-left: 15px;
+}
+
+.post-more {
+	position: absolute;
+	right: 13px;
+	color: rgb(38,38,38);
+}
+
+.post-content {
+	width: 645px;
+	height: 480px;
+	margin-top: 70px;
+	/* position: absolute;
+	top: 70px; */
+	object-fit: cover;
+}
+
+.post-actions {
+	display: flex;
+	align-items: center;
+	justify-content: start;
+	margin-top: 10px;
+	/* position: absolute;
+	left: 0px;
+	right: 0px; */
+	/* bottom: 150px; */
+}
+
+.heart {
+	margin-top: 2px;
+}
+
+.send {
+	margin-top: 3px;
+}
+
+.heart, .comment, .send, .save {
+	width: 24px;
+	height: 24px;
+	padding-left: 15px;
+	cursor: pointer;
+	opacity: 1;
+}
+
+.heart:hover, .comment:hover, .send:hover, .save:hover {
+	opacity: 0.5;
+}
+
+
+.save {
+	position: absolute;
+	right: 20px;
+}
+
+.likes {
+	font-size: 14px;
+	font-weight: 500;
+	margin-left: 8px;
+	margin-top: 14px;
+	cursor: pointer;
+}
+
+.comments {
+	font-size: 14px;
+	color: grey;
+	margin-left: 10px;
+	cursor: pointer;
+}
+
+
+.caption {
+	display: flex;
+	justify-content: start;
+	font-weight: 10px;
+	align-items: center;
+	margin-top: 7px;
+	margin-bottom: 7px;
+	font-size: 15px;
+	/* width: 450px; */
+	
+}
+.post-author {
+	font-weight: 500;
+	padding-right: 10px;
+	margin-left: 10px;
+	cursor: pointer;
+}
+
+.text {
+	margin-left: -5px;
+	width: 450px;
+}
+
+.hour-posted {
+	font-size: 11px;
+	color: grey;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
+.line {
+	width: 100%;
+	height: 1px;
+	background-color: rgba(0, 0, 0, 0.106);
+	margin-top: 10px;	
+}
+
+
+.flex-bottom {
+	display: flex;
+	align-items: center;
+	margin-top: 17px;
+	margin-left: 8px;
+}
+
+.emoji {
+	width: 23px;
+	height: 23px;
+	cursor: pointer;
+	padding-left: 5px;
+}
+
+.post-button {
+	position: absolute;
+	right: 15px;
+	color: rgb(35, 124, 233);
+	font-weight: 500;
+	opacity: 1;
+	cursor: pointer
+}
+
+.post-button:hover {
+	opacity: 0.5;
+}
+
+.add-comment {
+	font-size: 14px;
+	margin-left: 15px;
+	width: 420px;
+	height: 25px;
+	border: 1px solid white;
+	outline: none !important;
+}
+
+.post-tooltip {
+	background-color: rgb(255, 254, 254);
+	width: 90%;
+	height: 460px;
+	z-index: 5;
+	position: absolute;
+	top: 40px;
+	left: 15px;
+	border-radius: 10px;
+	border: 1px solid rgba(0, 0, 0, 0.275);
+	opacity: 0;
+	transition: all 0.5s ease-in-out;
+	visibility: hidden;
+	
+}
+
+.tooltip-profile {
+	width: 90px;
+	object-fit: cover;
+	border-radius: 70px;
+	cursor: pointer;
+}
+
+.tooltip-flexbox {
+	display: flex;
+	margin: 25px;
+}
+
+.tooltip-user {
+	font-weight: 500;
+}
+
+.tooltip-subtext {
+	color: grey;
+	margin-bottom: 15px;
+}
+
+.tooltip-info {
+	display: flex;
+	flex-direction: column;
+	margin-left: 25px;
+}
+
+.tooltip-footer {
+	display: flex;
+	justify-content: space-between;
+	margin: 0px auto;
+	align-items: center;
+}
+
+.tooltip-footer div {
+	font-size: 18px;
+	text-align: center;
+	margin-top: 10px;
+	line-height: 13px;
+}
+
+.footer-info {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.tooltip-text {
+	color: grey;
+}
+
+.footer-number {
+	font-weight: 500;
+}
+
+
+.tooltip-footer img {
+	width: 193px;
+	height: 140px;
+	object-fit: cover;
+	margin-top: 22px;
+	padding: 0 auto;
+}
+
+.tooltip-buttons {
+	position: absolute;
+	bottom: 25px;
+	left: 7.5%;
+}
+
+.tooltip-buttons button {
+	margin-left: 8px;
+	padding: 10px 80px;
+	border-radius: 7px;
+	font-size: 20px;
+	color: black;
+	background-color: white;
+	border: 1px solid rgba(0, 0, 0, 0.254);
+}
+
+.image-container:hover .post-tooltip {
+	opacity: 1;
+	visibility: visible;
+}

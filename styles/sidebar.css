@@ -1,0 +1,220 @@
+@media (max-width: 1350px) {
+
+.sidebar {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+    background-color: rgb(255,255,255);
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-right-color: rgba(169, 169, 169, 0.543);
+    width: 100px;  
+    z-index: 5;
+}
+
+.sidebar-items {    
+    width: 76px;
+    height: 67px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 14px;
+    margin-top: 50px; 
+    border-radius: 50px;  
+}
+
+.sidebar-profile {
+    width: 40px;
+    border-radius: 25px;
+    object-fit: cover;
+    margin-top: 15px;
+    margin-left: 3px;
+    transition: all .1s ease-in-out;
+}
+
+.sidebar svg {
+    width: 32px;
+    height: 32px;
+    margin-top: 15px;
+    margin-left: 2px;
+    transition: all .1s ease-in-out;
+    position: relative;
+}
+
+.sidebar .insta_icon {
+    margin-left: 4px;
+}
+
+.sidebar-items:hover {
+    background-color: rgba(155, 154, 154, 0.072);
+}
+
+.sidebar-items svg:hover {
+    width: 36px;
+    height: 36px;
+    cursor: pointer;
+}
+
+.sidebar-profile:hover {
+    width: 45px;
+    cursor: pointer;
+}
+
+.sidebar-profile:active {
+    opacity: 0.3;
+    transform: scale(0.85,0.85);
+}
+
+.sidebar-items svg:active {
+    opacity: 0.3;
+    transform: scale(0.85,0.85);
+}
+
+.message-notification {
+    background-color: rgb(255,48,64);
+    color: white;
+    font-size: 11px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 20px;
+    font-size: 15px;
+    position: absolute;
+    right: -12px;
+    top: 8px;
+}
+
+.notifications {
+    position: relative;
+}
+
+.sidebar-items p {
+    font-size: 18px;
+    margin-top: 5px;
+    visibility: hidden;
+}
+
+.logo {
+    width: 0px;
+    visibility: hidden;
+}
+
+
+
+
+}
+
+@media (min-width: 1350.1px) {
+
+    .sidebar {
+        position: fixed;
+        left: 0px;
+        top: 0px;
+        bottom: 0px;
+        background-color: rgb(255,255,255);
+        border-right-width: 1px;
+        border-right-style: solid;
+        border-right-color: rgba(169, 169, 169, 0.543);
+        width: 420px;  
+        z-index: 5;
+    }
+    
+    .sidebar-items, .logo {    
+        width: 355px;
+        height: 60px;
+        display: flex;
+        align-items: center;
+        margin-left: 15px;
+        margin-top: 50px; 
+        border-radius: 50px;  
+    }
+    
+    .sidebar-profile {
+        width: 40px;
+        border-radius: 25px;
+        object-fit: cover;
+        margin-top: 7px;
+        margin-left: 15px;
+        transition: all .1s ease-in-out;
+    }
+    
+    .sidebar svg {
+        width: 36px;
+        height: 36px;
+        margin-top: 7px;
+        margin-left: 18px;
+        transition: all .1s ease-in-out;
+        position: relative;
+    }
+    
+    .sidebar-items:hover {
+        background-color: rgba(155, 154, 154, 0.072);
+    }
+    
+    .sidebar-items svg:hover {
+        width: 40px;
+        height: 40px;
+        cursor: pointer;
+    }
+    
+    .sidebar-profile:hover {
+        width: 45px;
+        cursor: pointer;
+    }
+    
+    .sidebar-profile:active {
+        opacity: 0.3;
+        transform: scale(0.85,0.85);
+    }
+    
+    .sidebar-items svg:active {
+        opacity: 0.3;
+        transform: scale(0.85,0.85);
+    }
+    
+    .message-notification {
+        background-color: rgb(255,48,64);
+        color: white;
+        font-size: 11px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        border-radius: 20px;
+        font-size: 15px;
+        position: absolute;
+        right: -12px;
+        top: 0px;
+    }
+    
+    .notifications {
+        position: relative;
+    }
+    
+    .sidebar-items p {
+        font-size: 25px;
+        margin-top: 5px;
+        margin-left: 30px;
+        cursor: pointer;
+        font-weight: 400;
+        
+    }
+
+    .logo {
+        width: 150px;
+        cursor: pointer;
+        margin-bottom: 100px;
+    }
+
+    .logo:active {
+        opacity: 0.3;
+    }
+
+    .insta_icon {
+        width:0px;
+        visibility: hidden;
+    }
+
+}
