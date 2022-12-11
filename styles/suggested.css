@@ -1,28 +1,29 @@
-@media (max-width: 1550px) {
+@media (max-width: 1650px) {
 .suggested-container {
-    visibility: hidden;
+    display: none;
 
 }
 }
 
-@media (min-width: 1550.5px) {
+@media (min-width: 1650.5px) {
     .suggested-container {
-        background-color: white;
+        
         position: absolute;
-        right: 0px;
-        top: 0px;
+        right: 10px;
+        top: 70px;
         width: 450px;
-        height: 450px;
+        height: 620px;
         visibility: visible;
         border-radius: 4px;
-        border-left: 1px solid  rgba(169, 169, 169, 0.543);
+        
+    
     }
 
     .suggested-user-info {
         display: flex;
         align-items: center;
         justify-content:start;
-        padding-left: 30px;
+        padding-left: 25px;
         padding-top: 30px;
         cursor: pointer;
 
@@ -43,14 +44,86 @@
 
     .suggested-switch-button {
         position: absolute;
-        right: 45px;
+        right: 35px;
         color: rgb(35, 124, 233);
         font-weight: 500;
+        cursor: pointer;
     }
 
     .suggested-switch-button:hover {
-        opacity: 0.8;
+        opacity: 0.4;
     }
+
+    .suggested-user-info p {
+        color: grey;
+        padding-left: 18px;
+    }
+
+    .suggestions-for-you {
+        padding-top: 25px;
+        padding-left: 30px;
+        padding-bottom: 10px;
+        color: grey;
+        font-size: 17px;
+    }
+
+    .see-all-button {
+        font-size: 17px;
+        cursor: pointer;
+        position: absolute;
+        right: 35px;
+        top: 124px;
+        font-size: 16px;
+        cursor: pointer;
+        font-weight: 500;
+    }
+
+    .see-all-button:hover {
+        opacity: 0.4;
+    }
+
+
+    .suggested-users {
+        display: flex;
+        align-items: center;
+        padding-left: 15px;
+        padding: 0;
+        margin-bottom: -20px;
+    }
+
+    .suggested-users p {
+        margin-left: -10px;
+        color: rgba(128, 128, 128, 0.705);
+    }
+
+    .suggested-users-profile {
+        width: 44px;
+        border-radius: 22px;
+        margin: 20px 25px;
+    }
+
+    .suggested-users-name {
+        font-weight: 500;
+        margin-left: -10px;
+    }
+
+
+    .suggested-footer p {
+        margin-top: 45px;
+        margin-left: 25px;
+        font-size: 15px;
+        color: rgba(148, 148, 148, 0.507);
+        cursor: pointer;
+    }
+
+    .suggested-footer div {
+        color: rgba(148, 148, 148, 0.507);
+        position: absolute;
+        bottom: 10px;
+        left: 23px;
+        cursor: pointer;
+    }
+
 
 
 }
